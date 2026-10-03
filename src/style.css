@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Main navy details */
+.bg-\[\#26354f\] {
+  background-color: #f8f1e8 !important;
+}
+
+.bg-\[\#1d293f\] {
+  background-color: #eee2d3 !important;
+}
+
+.text-white {
+  color: #26354f !important;
+}
+
+/* Navy borders become visible details */
+.border-\[\#26354f\] {
+  border-color: #26354f !important;
+}
+
+/* Keep the main page warm and light */
+body {
+  margin: 0;
+  background: #cbb69d;
+}
+
+/* Navy text details */
+.text-\[\#26354f\] {
+  color: #26354f !important;
+}
+
+/* Burgundy stays as an accent */
+.bg-\[\#7d302d\] {
+  background-color: #8e4e4e;
+}
+
+/* Make the Today’s Focus area light instead of navy */
+.bg-\[\#26354f\].relative {
+  background-color: #ffffff !important;
+  border-color: #26354f !important;
+}
+
+/* Improve text inside the light focus card */
+.bg-\[\#26354f\].relative p {
+  color: #26354f;
+}
+
+/* Keep the small decorative accent */
+.bg-\[\#a97945\] {
+  background-color: #a97945;
+}
